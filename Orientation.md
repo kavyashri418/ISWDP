@@ -1,13 +1,13 @@
-### Semiconductors, their importance, complexities and how its developed?
+## Semiconductors, their importance, complexities and how its developed?
 
 <img width="2103" height="1445" alt="Screenshot 2025-10-23 093502" src="https://github.com/user-attachments/assets/3de48b08-c4fd-4b27-80e9-f3ac2814f2f8" />
 
 
 <img width="1253" height="1861" alt="Screenshot 2025-10-23 093529" src="https://github.com/user-attachments/assets/801a6489-ad5c-4cba-b361-8a292b7fba9f" />
 
-### Reducing form factor, increasing functionality, increased design complexity, increased necessity of knowledge transfer and skill development
+## Reducing form factor, increasing functionality, increased design complexity, increased necessity of knowledge transfer and skill development
 
-### What keeps the semiconductor development rolling?
+## What keeps the semiconductor development rolling?
 
 Cutting edge research
 - New device structure --> paradigm shift from planar to 3D structures, finFETs, HEMTs
@@ -18,17 +18,17 @@ Reliability improvements through innovation
 Improved understanding of physical mechanisms
 Bringing down cost of research, development and production
 
-### Understanding Device Design
+## Understanding Device Design
 
 <img width="1345" height="1112" alt="Screenshot 2025-10-23 104333" src="https://github.com/user-attachments/assets/0c8682b5-a8e5-46d4-a4c2-cc3d649c85e1" />
 
-### A step ahead - designing of a diode
+## A step ahead - designing of a diode
 
 <img width="2081" height="1045" alt="Screenshot 2025-10-23 105932" src="https://github.com/user-attachments/assets/e15ffb5f-df3e-4873-9f30-11542dfc54b8" />
 
 <img width="1038" height="838" alt="Screenshot 2025-10-23 110015" src="https://github.com/user-attachments/assets/41211b6d-6ba8-4c5b-8f2a-447cea170a44" />
 
-### Design seems complex?
+## Design seems complex?
 Recombination current at lower forward biases
 
 
@@ -38,7 +38,7 @@ Recombination current at lower forward biases
 <img width="1065" height="1039" alt="Screenshot 2025-10-23 105855" src="https://github.com/user-attachments/assets/a6312192-9380-4821-86a8-24454e147834" />
 
 
-### Should we increase complexity? 
+## Should we increase complexity? 
 
 <img width="1311" height="684" alt="Screenshot 2025-10-23 110259" src="https://github.com/user-attachments/assets/58de156b-8f7b-4115-a4e9-38ff7e80edfc" />
 
@@ -49,7 +49,7 @@ Recombination current at lower forward biases
 <img width="884" height="764" alt="Screenshot 2025-10-23 110350" src="https://github.com/user-attachments/assets/ed7eec18-6c32-4911-aa2d-b263bd44f852" />
 
 
-### Designing Planar MOSFET
+## Designing Planar MOSFET
 
 What happens if we increases Na?
 - Affects Qsd --> can tune Vt, body effect
@@ -65,7 +65,7 @@ Reducing Na
 
 <img width="1448" height="577" alt="Screenshot 2025-10-23 111625" src="https://github.com/user-attachments/assets/2819e3fe-5d4b-43b5-908b-a09773c8376f" />
 
-### Designing Planar MOSFET
+## Designing Planar MOSFET
 
 <img width="1030" height="1199" alt="Screenshot 2025-10-23 112240" src="https://github.com/user-attachments/assets/d9367af9-1d59-4b14-875f-e41e1cf0e12e" />
 
@@ -73,7 +73,7 @@ Reducing Na
 
 <img width="1293" height="1252" alt="Screenshot 2025-10-23 112315" src="https://github.com/user-attachments/assets/e8075e93-ec5b-48f7-ab52-99d5f60be433" />
 
-### Should we try and increase complexity further?
+## Should we try and increase complexity further?
 
 - Non planar structure? FinFETs
  - The potential distribution, electric fields and carrier densities will have to be analyzed in 3-dimensions
@@ -83,7 +83,7 @@ Reducing Na
 
 <img width="1239" height="916" alt="Screenshot 2025-10-23 113431" src="https://github.com/user-attachments/assets/0508ba03-dc36-453c-85a7-2b9dea361204" />
 
-### Is Understandiong Device Design Enough?
+## Is Understandiong Device Design Enough?
 
 - Process challenges in fabricating modern-day devices
 - The process limitation induced impact on device design
@@ -94,7 +94,7 @@ Reducing Na
 
   <img width="1474" height="1155" alt="Screenshot 2025-10-23 122626" src="https://github.com/user-attachments/assets/7a486748-4195-457f-acba-64424ab7dab8" />
 
-### TCAD Based Approach : Addressing these challenges
+## TCAD Based Approach : Addressing these challenges
 
 <img width="2732" height="909" alt="Screenshot 2025-10-23 124550" src="https://github.com/user-attachments/assets/ef39700e-5a5f-4aa5-ad4e-8a1857effd40" />
 
@@ -105,9 +105,9 @@ Simulation time a few minutes quick conceptualized and testing
 Fab process simulator effectively simulates different fabrication process steps including etching , ion implementation induced doped profile, damage, the impact of annealing temperature on dopant diffusion and stress profiles
 
 
-### Device Simulator - DC, AC, Transient performance and reliability analysis, device circuit co-simulation
+# Device Simulator - DC, AC, Transient performance and reliability analysis, device circuit co-simulation
 
-### TCAD - Technology Computer Aided Design
+## TCAD - Technology Computer Aided Design
 
 <img width="2601" height="1318" alt="Screenshot 2025-10-23 125851" src="https://github.com/user-attachments/assets/62f9533b-c42b-4afe-abb0-7ffbf155bf26" />
 
@@ -131,7 +131,7 @@ Process flow description are input to process simulation
 
 <img width="838" height="1345" alt="Screenshot 2025-10-23 131516" src="https://github.com/user-attachments/assets/4050c63a-0938-4351-bba2-83048ae579c1" /> 
 
-### Ion Implantation
+## Ion Implantation
 
 - Ion implantation into on axis crystals leads to many ions experiencing small angle scattering and channel deep into the crystal
 - Their stopping is then dominated by electronic drag only, which results in a channeling tail
@@ -145,7 +145,7 @@ Implantation through a thin oxide also reduces channeling
 
 <img width="2653" height="544" alt="Screenshot 2025-10-23 134009" src="https://github.com/user-attachments/assets/47c5967d-3356-4e2d-a832-10c4d08c5758" />
 
-### Diffusion
+## Diffusion
 
 - Diffusion is modelled either modelled atomistic or in a continum with a set of partial differential equation
 
@@ -159,7 +159,7 @@ In the frank mechanisms, interstitial dopants or dopant interstiatial pairs occu
 
 <img width="1344" height="699" alt="Screenshot 2025-10-23 134519" src="https://github.com/user-attachments/assets/fd9c2ada-6323-4102-8311-07e7c88d8fe4" />
 
-### Sentaurus Process Simulator
+## Sentaurus Process Simulator
 
 - General purpose multidimensional (2D/3D) process simulator
 - Integrated 3D geometric modelling engine
@@ -181,7 +181,7 @@ In the frank mechanisms, interstitial dopants or dopant interstiatial pairs occu
 <img width="979" height="510" alt="Screenshot 2025-10-23 135141" src="https://github.com/user-attachments/assets/8ec743a2-9f42-4ee2-9bfa-8e26bd7c6f03" />
 
  
-### Sentaurus Structure Editor
+## Sentaurus Structure Editor
 
 - Geometric operations
 - Easy to use GUI
@@ -193,7 +193,7 @@ In the frank mechanisms, interstitial dopants or dopant interstiatial pairs occu
 <img width="1360" height="729" alt="Screenshot 2025-10-23 135433" src="https://github.com/user-attachments/assets/ce4f8c6b-cb61-4417-aa60-d14c30e01e49" />
 
 
-### Prcoess Explorer
+## Prcoess Explorer
 
 - From layout files and process step description process explorer builds high-fidelity topographical 3D models allowing DOE creation based on a collaborative database
 - Key capabilities
@@ -205,7 +205,7 @@ In the frank mechanisms, interstitial dopants or dopant interstiatial pairs occu
   - Different technologies
   - Value links with TCAD
  
-### What is Device Simulation?
+## What is Device Simulation?
 
  - Virtual tests of the electrical and thermal behavior of the transistor
  - Focused on the smallest building blocks the individual transistor and their immediate environment
@@ -215,7 +215,7 @@ In the frank mechanisms, interstitial dopants or dopant interstiatial pairs occu
 <img width="2775" height="945" alt="Screenshot 2025-10-23 140514" src="https://github.com/user-attachments/assets/43db08eb-0ca7-4fe7-aec0-3d6863a8ad9f" />
 
 
-### Sentaurus Device Simulator
+## Sentaurus Device Simulator
 
 - General purpose multidimensional (2D/3D) device simulator
 - Silicon and compound semiconductors
@@ -234,14 +234,14 @@ In the frank mechanisms, interstitial dopants or dopant interstiatial pairs occu
 
 <img width="1543" height="451" alt="Screenshot 2025-10-23 141035" src="https://github.com/user-attachments/assets/26d5c826-b93a-45bc-842f-7cef5092e6b6" />
 
-### Sentaurus Workbench
+## Sentaurus Workbench
 
 - TCAD framework environment
 - Project management
 - Design of experiments and optimizations
 - Job framing
 
-### Sentaurus Visual - TCAD Data Visualizer
+## Sentaurus Visual - TCAD Data Visualizer
 
 - Enhanced GUI experiences
   - 2D/3D fields
@@ -251,7 +251,7 @@ In the frank mechanisms, interstitial dopants or dopant interstiatial pairs occu
 - Powerful scripting capabilities
   - Python and TCL
 
- ### Synopsys TCAD Product Family
+ ## Synopsys TCAD Product Family
 
 <img width="2445" height="1130" alt="Screenshot 2025-10-23 141736" src="https://github.com/user-attachments/assets/edfad596-a722-4d72-8dd3-082227d9da58" />
 
