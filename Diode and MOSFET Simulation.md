@@ -1,4 +1,4 @@
-## Why study Metal Oxide Semiconductors?
+<img width="548" height="300" alt="Screenshot 2026-01-03 233935" src="https://github.com/user-attachments/assets/fc48d5db-6a9f-453d-892b-d7883d0c5dec" />## Why study Metal Oxide Semiconductors?
 Their study enables designing capacitors on wafers for ICs.
 <img width="3305" height="586" alt="Screenshot 2026-01-03 125113" src="https://github.com/user-attachments/assets/e7e1dd05-c0eb-461f-8d2d-0b4d805a9e8d" />
 Forms a integral part of modern semiconductors devices
@@ -15,7 +15,7 @@ Q' = C'/V
 E = V/d
 <img width="1208" height="688" alt="Screenshot 2026-01-03 125725" src="https://github.com/user-attachments/assets/a52b7ee8-1de1-46c5-9f01-2bd2a03b233e" />
 <img width="1096" height="846" alt="Screenshot 2026-01-03 125738" src="https://github.com/user-attachments/assets/30a8c07d-5222-4b09-be7a-cde7ae5c7529" />
-<img width="2378" height="878" alt="Screenshot 2026-01-03 125809" src="https://github.com/user-attachments/assets/f6d980b0-9787-4f76-97c2-d8e20d90d25f" />\
+<img width="2378" height="878" alt="Screenshot 2026-01-03 125809" src="https://github.com/user-attachments/assets/f6d980b0-9787-4f76-97c2-d8e20d90d25f" />
 
 ## Ideal MOS Capacitor:- energy band design
 
@@ -91,7 +91,7 @@ Low V<sub>DS</sub>, uniform channel --> acts like a resistor
 ```
 Resistance ∝ 1/μ x channel charge
 ```
-Moderately high Vds, voltage drop across the oxide near drain current ↓, \Q'n| ↓, conductivity ↓, slope ↓
+Moderately high Vds, voltage drop across the oxide near drain current ↓, |Q'n| ↓, conductivity ↓, slope ↓
 <img width="3342" height="937" alt="Screenshot 2026-01-03 134140" src="https://github.com/user-attachments/assets/507e381a-f46e-421f-9989-cf1465e2f044" />
 V<sub>DS</sub> channel pinch-off near drain, slope ≈ 0
 V<sub>GS</sub> - V<sub>DS</sub>(sat) = V<sub>T</sub> -->V<sub>DS</sub>(sat)=V<sub>GS</sub> - V<sub>T</sub>
@@ -183,13 +183,79 @@ Drain Induced Barrier Lowering --> even drain voltage can turn on the channel
 
 ## Modes of Operation
 Two different junctions --> four possible modes of operations
-1) Both E-B and C-B junctions are reverse biased
+
+### 1) Both E-B and C-B junctions are reverse biased
 <img width="1181" height="616" alt="Screenshot 2026-01-03 145710" src="https://github.com/user-attachments/assets/8fd7a9c2-48d0-4caf-95e8-967f588b173c" />
 <img width="1307" height="1412" alt="Screenshot 2026-01-03 145703" src="https://github.com/user-attachments/assets/7e424d1a-48fa-4658-8c40-1aee3b8cc1e5" />
-2) E-B forward biased and C-B is forward biased
+
+### 2) E-B forward biased and C-B is forward biased
 <img width="1162" height="641" alt="Screenshot 2026-01-03 145828" src="https://github.com/user-attachments/assets/5d749653-ff1f-44a8-bd3e-8cfb21437e53" />
 <img width="1278" height="1276" alt="Screenshot 2026-01-03 145936" src="https://github.com/user-attachments/assets/f51bce48-42e6-4a4f-9f5c-d319a676b44c" />
-Huge electron injection from emitter and collector to base!! Base is designed to support minimum recombination --> saturation of base with electrons --> no gain out of the transistor
+Huge electron injection from emitter and collector to base!! Base is designed to support minimum recombination --> saturation of base with electrons --> no gain out of the transistor.
+
+### 3) E-B reverse biased and C-B forward biased
+Upside down operation --> roles of the emitter and collector are reversed
+Disadvantages with this mode of operation are
+
+- Non-optimum doping
+- Non-optimum area
+
+<img width="548" height="300" alt="Screenshot 2026-01-03 233935" src="https://github.com/user-attachments/assets/5b6ab068-be33-4681-acf3-9c6f145dd0b7" />
+<img width="639" height="683" alt="Screenshot 2026-01-03 234612" src="https://github.com/user-attachments/assets/e8a63d98-c7dc-45a2-abca-36de18e506c0" />
+
+### 4) E-B is forward biased and C-B is reverse biased
+
+<img width="584" height="310" alt="Screenshot 2026-01-04 000707" src="https://github.com/user-attachments/assets/1f704b0c-b48d-4a6f-b946-7f51f5a144ce" />
+<img width="639" height="644" alt="Screenshot 2026-01-04 000729" src="https://github.com/user-attachments/assets/b3572975-d327-4e33-99a7-5a91b0a9f7fb" />
+
+- Huge electron injection from emitter to base
+- Recombination in base --> remaining move B-C junction --> Huge current through B-C --> Ic driven by VBE.
+- Base design is critical --> minimum loss of carriers should happen in base.
+- Tf we can maintain Ib=0 --> Ic=Ie
+- while Ie flows through a forward bias (low resistance) Ic flows through reverse bias junction (high resistance).
+
+## Modes of Operation
+<img width="1665" height="930" alt="Screenshot 2026-01-04 000838" src="https://github.com/user-attachments/assets/0cefc2f9-9e62-4f69-85a8-a355799a8313" />
+
+## Principle of Operation in Active Mode
+<img width="1648" height="819" alt="Screenshot 2026-01-04 000913" src="https://github.com/user-attachments/assets/b859f176-4ea0-4b50-a7e9-960f6e6583b5" />
+
+## Voltage Amplification
+
+Common emitter configuration - forward active mode Vbb and Vcc --> bias in active mode, Vi is input to be amplified.
+<img width="1086" height="538" alt="Screenshot 2026-01-04 001255" src="https://github.com/user-attachments/assets/2ee4caf7-c0c6-47d6-8369-dc64ebf9ae9f" />
+<img width="581" height="921" alt="Screenshot 2026-01-04 001240" src="https://github.com/user-attachments/assets/e72064bd-6c52-4bf8-b7c1-83ce44a30660" />
+
+## Voltage Amplification - Choice of Rc
+
+Important to maintain biasing in active mode.
+<img width="740" height="630" alt="Screenshot 2026-01-04 001631" src="https://github.com/user-attachments/assets/efa9ea85-d0ff-4601-8687-5e3f3330b6e5" />
+
+<img width="824" height="508" alt="Screenshot 2026-01-04 001639" src="https://github.com/user-attachments/assets/246bc9e9-c613-4f14-83c0-6f60b619fe0b" />
+
+A reduction in Vc can potentially drive the transistor into saturation --> loss of gain/distribution of wave
+
+## Other Modes of Operation Cit-off, Saturation, Inverse Active Mode
+
+<img width="1421" height="319" alt="Screenshot 2026-01-04 002059" src="https://github.com/user-attachments/assets/6d9300dc-1bf6-446a-aa1a-54b7f51d3466" />
+a) cut off and b) saturation
+
+<img width="1397" height="382" alt="Screenshot 2026-01-04 002122" src="https://github.com/user-attachments/assets/8f5e552b-c328-4345-aa7a-54e114c2de47" />
+a) Minority carrier distribution in an npn bipolar transistor operating in the inverse-active mode
+b) Cross section of the transistor showing the injection and collection of electrons in the inverse active mode
+
+## Non-Ideal Effects - Punch Through
+
+Increase in reverse bias B-C voltage --> B-C space charge region widens and extends into the neutral base --> can penetrate completely through the base and reach the B-E space charge region --> punch through --> large increase in current with small increase in B-C voltage.
+
+<img width="460" height="309" alt="Screenshot 2026-01-04 002614" src="https://github.com/user-attachments/assets/b6ecd0ca-689d-4e4f-80b4-160ab44d266f" />
+a) Thermal Equilibrium
+<img width="568" height="505" alt="Screenshot 2026-01-04 002540" src="https://github.com/user-attachments/assets/191e7887-1451-4c1c-86a3-0c0f7143bea7" />
+b) In Reverse Bias
+
+
+
+
   
 
 
