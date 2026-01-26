@@ -69,7 +69,7 @@ How is it defined?
 ## Meshing for p-n Junction Diode
 Important to capture the metallurgical junction
 - Strategy
-  - Place a global mesh --> a coarse `sh
+  - Place a global mesh --> a coarse mesh
   - Define requirement refinements to capture variations
 - Step 1 - define a refinement window covering the whole device'
 - Step 2 - define a loose mesh for this window
@@ -80,7 +80,7 @@ Important to capture the metallurgical junction
 - Multi-box meshing (uniform)
 - Interface meshing (non uniform)
 - Doping dependent meshing (non uniform)
-- 
+
 <img width="1487" height="1697" alt="Screenshot 2026-01-03 123907" src="https://github.com/user-attachments/assets/93e2d292-777c-4c17-8a50-410ef99068fa" />
 
  
